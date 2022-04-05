@@ -53,8 +53,7 @@ namespace Phoneshop.ConsoleApp
         {
             char input = Console.ReadKey(true).KeyChar;
             string inputText = input.ToString();
-            int id = 0;
-            bool isInt = int.TryParse(inputText, out id);
+            bool isInt = int.TryParse(inputText, out int id);
 
             if (isInt == true)
             {
