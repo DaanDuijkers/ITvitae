@@ -51,48 +51,40 @@ namespace Phoneshop.ConsoleApp
 
         public static void SelectedPage (List<Phone> phones)
         {
-            try
+            char input = Console.ReadKey(true).KeyChar;
+            string inputText = input.ToString();
+            int id = 0;
+            bool isInt = int.TryParse(inputText, out id);
+
+            if (isInt == true)
             {
-                char input = Console.ReadKey(true).KeyChar;
-                string inputText = input.ToString();
-                int id = 0;
-                bool isInt = int.TryParse(inputText, out id);
-
-                if (isInt == true)
+                Phone selectedPhone = null;
+                foreach (Phone p in phones)
                 {
-                    Phone selectedPhone = null;
-                    foreach (Phone p in phones)
+                    if (p.ID == id)
                     {
-                        if (p.ID == id)
-                        {
-                            selectedPhone = p;
-                            break;
-                        }
+                        selectedPhone = p;
+                        break;
                     }
+                }
 
-                    Console.Clear();
-                    if (selectedPhone != null)
-                    {
-                        Console.WriteLine("\n\t{ " + selectedPhone.Merk + " } { " + selectedPhone.Type + " } { " + selectedPhone.Prijs.ToString("0.00") + " } " + "\n\t{ " + selectedPhone.Omschrijving + " }\n");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Er is geen telefoon met dit ID");
-                    }
-
-                    Console.ReadKey(true);
-                    Console.Clear();
-                    MainMenu(phones);
+                Console.Clear();
+                if (selectedPhone != null)
+                {
+                    Console.WriteLine("\n\t{ " + selectedPhone.Merk + " } { " + selectedPhone.Type + " } { " + selectedPhone.Prijs.ToString("0.00") + " } " + "\n\t{ " + selectedPhone.Omschrijving + " }\n");
                 }
                 else
                 {
-                    SelectedPage(phones);
+                    Console.WriteLine("Er is geen telefoon met dit ID");
                 }
+
+                Console.ReadKey(true);
+                Console.Clear();
+                MainMenu(phones);
             }
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine("\tFoutmelding!\n");
-                Console.WriteLine("\t" + ex.Message);
+                SelectedPage(phones);
             }
         }
     }
