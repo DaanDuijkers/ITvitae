@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoneshop.ConsoleApp", "Phoneshop.ConsoleApp\Phoneshop.ConsoleApp.csproj", "{F3700C2E-6B17-48D0-A5EB-DE3ABC3B9EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3700C2E-6B17-48D0-A5EB-DE3ABC3B9EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3700C2E-6B17-48D0-A5EB-DE3ABC3B9EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3700C2E-6B17-48D0-A5EB-DE3ABC3B9EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3700C2E-6B17-48D0-A5EB-DE3ABC3B9EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07430B42-7172-4CB9-9BE1-F0F69C874464}
+	EndGlobalSection
+EndGlobal
