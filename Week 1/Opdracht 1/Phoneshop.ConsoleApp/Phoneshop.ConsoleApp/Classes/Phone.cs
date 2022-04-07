@@ -2,7 +2,7 @@
 {
     public class Phone
     {
-        public int ID { get; private set; }
+        public int Id { get; private set; }
         public string Brand { get; private set; }
         public string Type { get; private set; }
         public string Description { get; private set; }
@@ -12,7 +12,7 @@
 
         public Phone(string brand, string type, string description, double price)
         {
-            this.ID = count++;
+            this.Id = count++;
             this.Brand = brand;
             this.Type = type;
             this.Description = description;

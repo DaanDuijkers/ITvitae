@@ -5,7 +5,7 @@ namespace Phoneshop.ConsoleApp
 {
     public class Program
     {
-        private static List<Phone> phones = new()
+        private static readonly List<Phone> phones = new()
         {
             new Phone("Huawei",
                 "P30",
@@ -47,9 +47,9 @@ namespace Phoneshop.ConsoleApp
         {
             foreach (Phone p in phones)
             {
-                Console.WriteLine("\n\t" + p.ID + ". | " + p.Brand + " | " + p.Type);
+                Console.WriteLine($"\n {p.Id} | {p.Brand} | {p.Type}");
             }
-            Console.WriteLine("\n\nVoer alstublieft het ID van de telefoon die u wilt bekijken in:");
+            Console.WriteLine("\n\n Voer alstublieft het ID (nummer) in van de telefoon die u wilt bekijken:");
 
             SelectedPage();
         }
@@ -58,21 +58,23 @@ namespace Phoneshop.ConsoleApp
         {
             char input = Console.ReadKey(true).KeyChar;
             string inputText = input.ToString();
-            bool isInt = int.TryParse(inputText, out int id);
 
-            if (isInt == true)
+            if (int.TryParse(inputText, out int id) == true)
             {
-                Phone selectedPhone = phones.Find(x => x.ID == id);
+                Phone selectedPhone = phones.Find(x => x.Id == id);
 
                 Console.Clear();
                 if (selectedPhone != null)
                 {
-                    Console.WriteLine("\n\t{ " + selectedPhone.Brand + " } { " + selectedPhone.Type + " } { €" + selectedPhone.Price.ToString("0.00") + " } " + "\n\t{ " + selectedPhone.Description + " }\n");
+                    Console.WriteLine($"\n {{ { selectedPhone.Brand } }} {{ { selectedPhone.Type } }} " +
+                        $"{{ €{ selectedPhone.Price } }}");
+                    Console.WriteLine($" {{ { selectedPhone.Description } }}");
                 }
                 else
                 {
-                    Console.WriteLine("Er is geen telefoon met dit ID");
+                    Console.WriteLine(" Er is geen telefoon met dit ID");
                 }
+                Console.WriteLine("\n Druk op een willekeurige toets om terug te gaan...");
 
                 Console.ReadKey(true);
                 Console.Clear();
