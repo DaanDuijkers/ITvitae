@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Phoneshop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Phoneshop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Phoneshop.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Phoneshop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Phoneshop.Domain/Phoneshop.Domain.csproj",
+      "msbuildProject": "../Phoneshop.Domain/Phoneshop.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Phoneshop.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\daand\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\daand\\Documents\\ITvitae\\Weekopdrachten\\ITvitae\\Week 2\\Opdracht 2\\Phoneshop.ConsoleApp\\Phoneshop.Domain\\Phoneshop.Domain.csproj": {
+              "projectPath": "C:\\Users\\daand\\Documents\\ITvitae\\Weekopdrachten\\ITvitae\\Week 2\\Opdracht 2\\Phoneshop.ConsoleApp\\Phoneshop.Domain\\Phoneshop.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

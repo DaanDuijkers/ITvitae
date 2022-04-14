@@ -1,4 +1,4 @@
-﻿namespace Phoneshop.Business
+﻿namespace Phoneshop.Domain
 {
     public class Phone
     {
@@ -18,7 +18,7 @@
             this.Type = type;
             this.Description = description;
             this.FullPrice = price;
-            this.Price = FullPrice / 119 * 100;
+            this.Price = FullPrice / 1.21;
         }
     }
 }

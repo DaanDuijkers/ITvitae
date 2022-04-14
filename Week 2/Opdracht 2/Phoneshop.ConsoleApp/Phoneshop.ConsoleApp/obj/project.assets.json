@@ -5,11 +5,24 @@
       "Phoneshop.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Phoneshop.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Phoneshop.Business.dll": {}
         },
         "runtime": {
           "bin/placeholder/Phoneshop.Business.dll": {}
+        }
+      },
+      "Phoneshop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Phoneshop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Phoneshop.Domain.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../Phoneshop.Business/Phoneshop.Business.csproj",
       "msbuildProject": "../Phoneshop.Business/Phoneshop.Business.csproj"
+    },
+    "Phoneshop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Phoneshop.Domain/Phoneshop.Domain.csproj",
+      "msbuildProject": "../Phoneshop.Domain/Phoneshop.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

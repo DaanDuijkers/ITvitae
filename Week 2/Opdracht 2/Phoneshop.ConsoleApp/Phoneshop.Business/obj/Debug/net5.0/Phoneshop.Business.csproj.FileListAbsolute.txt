@@ -1,0 +1,15 @@
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\bin\Debug\net5.0\Phoneshop.Business.deps.json
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\bin\Debug\net5.0\Phoneshop.Business.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\bin\Debug\net5.0\Phoneshop.Business.pdb
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.csproj.AssemblyReference.cache
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.AssemblyInfoInputs.cache
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.AssemblyInfo.cs
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.csproj.CoreCompileInputs.cache
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\refint\Phoneshop.Business.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.pdb
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\ref\Phoneshop.Business.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\bin\Debug\net5.0\Phoneshop.Domain.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\bin\Debug\net5.0\Phoneshop.Domain.pdb
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Business\obj\Debug\net5.0\Phoneshop.Business.csproj.CopyComplete

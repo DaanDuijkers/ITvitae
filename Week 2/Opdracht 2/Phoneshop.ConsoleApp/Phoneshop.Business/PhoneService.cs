@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Phoneshop.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Phoneshop.Business
 {
-    public class PhoneService
+    public class PhoneService : IPhoneService
     {
         private List<Phone> phones = new();
 

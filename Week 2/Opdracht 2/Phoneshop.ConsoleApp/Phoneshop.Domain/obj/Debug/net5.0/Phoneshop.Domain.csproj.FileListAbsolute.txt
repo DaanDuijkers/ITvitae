@@ -1,0 +1,12 @@
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.csproj.AssemblyReference.cache
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.AssemblyInfoInputs.cache
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.AssemblyInfo.cs
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\bin\Debug\net5.0\Phoneshop.Domain.deps.json
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\bin\Debug\net5.0\Phoneshop.Domain.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\bin\Debug\net5.0\Phoneshop.Domain.pdb
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\refint\Phoneshop.Domain.dll
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\Phoneshop.Domain.pdb
+C:\Users\daand\Documents\ITvitae\Weekopdrachten\ITvitae\Week 2\Opdracht 2\Phoneshop.ConsoleApp\Phoneshop.Domain\obj\Debug\net5.0\ref\Phoneshop.Domain.dll

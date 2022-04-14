@@ -1,6 +1,6 @@
 ﻿using Phoneshop.Business;
+using Phoneshop.Domain;
 using System;
-using System.Collections.Generic;
 
 namespace Phoneshop.ConsoleApp
 {
@@ -59,31 +59,31 @@ namespace Phoneshop.ConsoleApp
             char input = Console.ReadKey(true).KeyChar;
             string inputText = input.ToString();
 
+            Console.Clear();
             if (int.TryParse(inputText, out int id) == true)
             {
                 Phone selectedPhone = phoneService.Read(id);
 
-                Console.Clear();
                 if (selectedPhone != null)
                 {
-                    Console.WriteLine($"\n {{ { selectedPhone.Brand } }} {{ { selectedPhone.Type } }} " +
-                        $"{{ €{ selectedPhone.Price } }}");
-                    Console.WriteLine($" {{ { selectedPhone.Description } }}");
+                    Console.WriteLine($"\n {{ {selectedPhone.Brand} }} {{ {selectedPhone.Type} }} " +
+                        $"{{ €{selectedPhone.Price:0.00} }} {{ €{selectedPhone.FullPrice:0.00} }}\n");
+                    Console.WriteLine($" {{ {selectedPhone.Description} }}");
                 }
                 else
                 {
                     Console.WriteLine(" Er is geen telefoon met dit ID");
                 }
-                Console.WriteLine("\n Druk op een willekeurige toets om terug te gaan...");
-
-                Console.ReadKey(true);
-                Console.Clear();
-                MainMenu();
             }
             else
             {
-                SelectedPage();
+                Console.WriteLine(" Druk op een nummer!");
             }
+            Console.WriteLine("\n Druk op een willekeurige toets om terug te gaan...");
+            Console.ReadKey(true);
+            Console.Clear();
+
+            MainMenu();
         }
     }
 }
