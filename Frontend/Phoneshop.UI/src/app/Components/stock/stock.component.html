@@ -1,0 +1,3 @@
+<ng-container *ngIf="stock <= 5; then less; else more"></ng-container>
+    <ng-template #less><div class="lowStock">Almost out of stock! Only {{stock}} left!</div></ng-template>
+    <ng-template #more><div class="highStock">{{stock}} in stock</div></ng-template>

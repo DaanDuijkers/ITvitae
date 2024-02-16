@@ -1,0 +1,16 @@
+<div class="container">
+    <button class="button">Back</button>
+    <img class="image" src="../../assets/images/150px.png" alt="Error">
+    <div class="info">
+        <div class="name">
+            {{phone.brand.name}} - {{phone.type}}
+        </div>
+        <div class="price">
+            {{phone.price | currency: "EUR"}}
+        </div>
+        <app-stock [stock]="phone.stock"></app-stock>
+    </div>
+    <div class="description">
+        {{phone.description}}
+    </div>
+</div>

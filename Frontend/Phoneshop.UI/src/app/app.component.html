@@ -1,0 +1,20 @@
+<header>
+    <mat-toolbar>
+        <button mat-icon-button (click)="opened=!opened">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>PhoneShop</span>
+    </mat-toolbar>
+</header>
+<mat-sidenav-container>
+    <mat-sidenav [(opened)]="opened" mode="push">
+        <mat-list>
+            <mat-list-item><button class="nav-button" mat-button [routerLink]="['']">Home</button></mat-list-item>
+            <mat-list-item><button class="nav-button" mat-button [routerLink]="['phones']">Phones</button></mat-list-item>
+            <mat-list-item><button class="nav-button" mat-button [routerLink]="['contact']">Contact</button></mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
